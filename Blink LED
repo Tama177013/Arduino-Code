@@ -1,9 +1,9 @@
 #define LED 4        /*#define (insert your component) (Pins)*
-void setup{
+void setup(){
   PinMode(LED, OUTPUT);
 }
 
-void loop{
+void loop(){
   digitalWrite(LED, HIGH);  /*LED ON*/
   delay(500);               /*delay in microsecond*/
   digitalWrite(LED, LOW);   /*LED OFF*/
