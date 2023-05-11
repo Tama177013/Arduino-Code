@@ -1,4 +1,4 @@
-#define LED 4        /*#define (insert your component) (Pins)*
+#define LED 4        /*#define (insert your component) (Pins)*/
 void setup(){
   PinMode(LED, OUTPUT);
 }
